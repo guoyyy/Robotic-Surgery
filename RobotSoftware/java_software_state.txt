@@ -1,0 +1,25 @@
+action_name
+ motion_accerlartion
+ insert distance
+ Reference needle depth
+ is_inside(indicate whether the needle is inside gel or not)
+ motion_target_direction.x  
+ motion_target_direction.y
+ motion_target_direction.z
+ motion_target_position.x	
+ motion_target_position.y
+ motion_target_position.z    (the motion_target_direction and motion_target_position define the end state of an action)
+ current_direction.x  
+ current_direction.y
+ current_direction.z
+ current_position.x	
+ current_position.y
+ current_position.z (the current_direction and current_position define the initial state of an action)
+ ready_direction.x
+ ready_direction.y
+ ready_direction.z
+ ready_position.x
+ ready_position.y
+ ready_position.z  (records the ready position and the insert direction of a single insertion)
+
+ 
