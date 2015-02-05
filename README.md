@@ -5,6 +5,6 @@ RobotGUI is a graphical user interface for Small Animal Biopsy Robot (SABiR http
 The GUI is based on java swing library and jogl (openGL), Kumiko Sano and  Sean Kruer implement the openGL part.
 
 RobotSoftware is a software architecture of SABiR. 
-src folder is the source code of robtic trajectory generation and data collection. Collected data is stored in raw_trajectory folder.
+/src folder is the source code of robtic trajectory generation and data collection. Collected data is stored in raw_trajectory folder. The software achitechure is implemented in java. We use matlabcontrol library to communicate with Matlab simulink model to send command and fetch result.
 
 PD_simulator contains robot API for matlab. The simulink model is implemented by Mark Renfrew
